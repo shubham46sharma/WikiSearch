@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.content{
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+
+.exercise-list:hover{
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.exercise-list div{
+  text-align: left;
+  padding: 10px 5px;
+  margin: 10px 0;
+  border-bottom: 1px solid #fafafa;
+
+}
+.exercise-list h4{
+  text-align: left;
+}
+.navbar{
+  padding: 1px;
+  align-items: center;
+  margin: 0 5px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.navbar h1{
+  color: #2a52cd;
+  text-align: center;
+}
+
+.navbar .links{
+  margin-left: auto;
+}
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover{
+  color: #2a52cd;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.logo{
+  margin-top:150px;
+  margin-bottom:20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.bar{
+  margin:0 auto;
+  width:575px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+}
+
+.bar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.bar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+
+.query-form input{
+  height:45px;
+  border:none;
+  display:block;
+  margin: auto;
+  width:500px;
+  font-size:16px;
+  outline: none;
+} 
+
+.buttons{
+  margin-top:30px;
+}
+
+.query-form button {
+  cursor:pointer;
+  background-color:#2a52cd;
+  border:none;
+  color:white;
+  font-size:15px;
+  padding: 10px 20px;
+  margin:5px;
+  border-radius:4px;
+  outline:none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

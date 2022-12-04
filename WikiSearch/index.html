@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="App.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Search</title>
+</head>
+<body>
+    <div class="App">
+      <nav class="navbar">
+        <h1>Wiki Search</h1>
+      </nav>
+        <div class="logo">
+         <img alt="Wikisearch" src="wiki.png"/>
+       </div>
+         <form class='query-form' id="myform">
+           <div class='bar'><input id="query" name='query' placeholder='Enter your search keyword'></input></div>
+           <div class='buttons'>
+             <button type="submit" id="lucene">Lucene Search</button>
+             <button type="submit" id="hadoop">Hadoop Search</button>
+           </div>
+           <div id="using"></div>
+           <div class="content">
+           <ul class="exercise-list">
+           </ul>
+          </div>
+           <div class="blog-preview"><p id="index"></p>
+            <h1 id="list"></h1>
+             <div> <p id="link"></p>
+             </div>
+           </div>
+
+           </form>
+       </div>
+       
+        
+</body>
+<script src="app.js"></script>
+
+</html>
